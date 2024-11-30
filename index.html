@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c1f632dd17.js" crossorigin="anonymous"></script>
+    <title>Padaria Doce Sabor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="imgs/docesabor-logo.png" alt="logo"></a>
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#paes">Pães</a>
+            <a href="#bolos">Bolos</a>
+            <a href="#doces">Doces</a>
+            <a href="#historia">História</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="icons">
+            <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="search-form">
+            <input type="search" name="search" id="search-box" placeholder="Procure aqui..." />
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+        <div class="cart-items-container">
+            <!-- Primeiro item do carrinho -->
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imgs/pao_frances.jpg" alt="Pão Francês">
+                <div class="content">
+                    <h3>Pão Francês</h3>
+                    <div class="price">R$ 0,60 (unidade)</div>
+                </div>
+            </div>
+            <!-- Segundo item do carrinho -->
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imgs/bolo_chocolate.jpg" alt="Bolo de Chocolate">
+                <div class="content">
+                    <h3>Bolo de Chocolate</h3>
+                    <div class="price">R$ 20,00 (tamanho médio)</div>
+                </div>
+            </div>
+            <!-- Terceiro item do carrinho -->
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imgs/pudim.jpg" alt="Pudim">
+                <div class="content">
+                    <h3>Pudim</h3>
+                    <div class="price">R$ 15,00 (unidade)</div>
+                </div>
+            </div>
+            <a href="" class="btn">Peça o seu!</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Início -->
+        <section class="home" id="home">
+            <div class="hero">
+                <h1>Início</h1>
+                <p>Bem-vindo(a) à Padaria Doce Sabor!</p>
+                <p>Descubra o sabor do pão artesanal!</p>
+                <a class="btn" href="">Compre agora!</a>
+            </div>
+        </section>
+        <!-- Pães -->
+        <section class="paes" id="paes">
+            <h3 class="title">Nossos <span>Pães</span></h3>
+            <div class="wrapper">
+                <!-- primeiro item -->
+                <div class="paes-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/pao_frances.jpg" alt="Pão Frânces">
+                    </div>
+                    <div class="content">
+                        <h3>Pão Frânces</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$0,60 (unidade)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+                <!-- segundo item -->
+                <div class="paes-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/pao_integral.jpg" alt="Pão Integral">
+                    </div>
+                    <div class="content">
+                        <h3>Pão Integral</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$0,80 (unidade)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+                <!-- terceiro item -->
+                <div class="paes-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/pao_queijo.jpg" alt="Pão de Queijo">
+                    </div>
+                    <div class="content">
+                        <h3>Pão de Queijo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$1,00 (unidade)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bolos -->
+        <section class="bolos" id="bolos">
+            <h3 class="title">Nossos <span>Bolos</span></h3>
+            <div class="wrapper">
+                <!-- quarto item -->
+                <div class="bolos-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/bolo_chocolate.jpg" alt="Bolo de Chocolate">
+                    </div>
+                    <div class="content">
+                        <h3>Bolo de Chocolate</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$ 20,00 (tamanho médio)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+                <!-- quinto item -->
+                <div class="bolos-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/bolo_fuba.jpg" alt="Bolo de Fubá">
+                    </div>
+                    <div class="content">
+                        <h3>Bolo de Fubá</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$ 15,00 (tamanho médio)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+                <!-- sexto item -->
+                <div class="bolos-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/bolo_limao.jpg" alt="Bolo de Limão">
+                    </div>
+                    <div class="content">
+                        <h3>Bolo de Limão</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$ 18,00 (tamanho médio)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Doces -->
+        <section class="doces" id="doces">
+            <h3 class="title">Nossos <span>Doces</span></h3>
+            <div class="wrapper">
+                <!-- sétimo item -->
+                <div class="doces-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/doce_leite.jpg" alt="Doce de Leite">
+                    </div>
+                    <div class="content">
+                        <h3>Doce de Leite</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$ 2,00 (unidade)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+                <!-- oitavo item -->
+                <div class="doces-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/pudim.jpg" alt="Pudim">
+                    </div>
+                    <div class="content">
+                        <h3>Pudim</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$ 15,00 (unidade)</div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+                <!-- nono item -->
+                <div class="doces-card">
+                    <div class="icons">
+                        <a class="fa-solid fa-cart-plus"></a>
+                        <a class="fa-solid fa-heart"></a>
+                        <a class="fa-solid fa-eye"></a>
+                    </div>
+                    <div class="item-img">
+                        <img src="imgs/torta_frutas.jpg" alt="Torta de Frutas">
+                    </div>
+                    <div class="content">
+                        <h3>Torta de Frutas</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">R$ 15,00 (tamanho médio)<span> R$ 20,00</span></div>
+                        <a href="" class="btn">Adicione ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- História -->
+        <section class="historia" id="historia">
+            <h1 class="title"><span>História</span></h1>
+            <div class="container">
+                <div class="img">
+                    <img src="imgs/padaria.webp" alt="Padaria">
+                </div>
+                <div class="content">
+                    <h3>Como tudo começou</h3>
+                    <p>
+                        A Padaria Doce Sabor foi fundada em uma pequena cidade há quase quatro décadas, nascida do
+                        sonho
+                        de
+                        um casal apaixonado pela panificação. Desde o início, a padaria se destacou por sua
+                        dedicação a
+                        ingredientes frescos e receitas tradicionais, oferecendo pães crocantes, bolos caseiros e
+                        doces
+                        artesanais que rapidamente conquistaram a comunidade.
+                        Com o passar dos anos, a Doce Sabor tornou-se um espaço acolhedor, promovendo eventos
+                        comunitários e
+                        adotando práticas sustentáveis, como o uso de embalagens recicláveis e a doação de
+                        excedentes.
+                        Hoje,
+                        a padaria mantém sua essência familiar, misturando tradição e inovação, sempre com o
+                        objetivo de
+                        unir as pessoas ao redor de uma mesa cheia de sabor e carinho.
+                    </p>
+                    <h3>Missão</h3>
+                    <p>
+                        Na Padaria Doce Sabor, nossa missão é trazer para você o melhor da tradição
+                        artesanal com aquele toque acolhedor que só uma padaria de verdade pode oferecer.
+                        Nosso compromisso é com a qualidade e o sabor, e cada produto que sai do nosso forno é
+                        feito com carinho e respeito pelas receitas clássicas que atravessam gerações.
+                        Venha nos visitar e sinta-se parte da nossa família!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Depoimentos -->
+        <section class="depoimentos" id="depoimentos">
+            <h1 class="title"><span>Depoimentos dos Clientes</span></h1>
+            <div class="wrapper">
+
+                <!-- Primeiro Depoimento -->
+                <div class="depoimentos-card">
+                    <img src="imgs/quote.png" alt="Depoimento">
+                    <p>
+                        Visitar a Doce Sabor é uma tradição em minha família. Os bolos e doces me
+                        lembram da minha infância. Cada mordida traz um pedacinho de nostalgia e felicidade!
+                    </p>
+                    <img class="customer" src="imgs/man1.jpg" alt="Cliente">
+                    <h3>Carlos</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <!-- Segundo Depoimento -->
+                <div class="depoimentos-card">
+                    <img src="imgs/quote.png" alt="Depoimento">
+                    <p>
+                        A Doce Sabor é meu refúgio. Não há nada melhor do que começar o dia com um
+                        pão quentinho e um café da manhã preparado com tanto carinho. É como voltar para casa!
+                    </p>
+                    <img class="customer" src="imgs/woman1.jpg" alt="Cliente">
+                    <h3>Maria</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <!-- Terceiro Depoimento -->
+                <div class="depoimentos-card">
+                    <img src="imgs/quote.png" alt="Depoimento">
+                    <p>
+                        Adoro a variedade de opções na Doce Sabor! Eles sempre têm algo para
+                        agradar a todos. Além disso, saber que estou apoiando uma padaria que valoriza a
+                        comunidade me faz sentir ainda melhor ao comprar aqui.
+                    </p>
+                    <img class="customer" src="imgs/woman2.jpg" alt="Cliente">
+                    <h3>Juliana</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Contato -->
+        <section class="contato" id="contato">
+            <h1 class="title"><span>Contato</span></h1>
+            <div class="contents">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.8919619362878!2d-38.950593700000006!3d-12.255589899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7143782a5eee23b%3A0xf19e4a2cd8f3c9eb!2sAv.%20Jo%C3%A3o%20Durval%20Carneiro%20-%20Feira%20de%20Santana%2C%20BA%2C%2040301-110!5e0!3m2!1spt-BR!2sbr!4v1732931568207!5m2!1spt-BR!2sbr"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <form action="">
+                    <h3>Entre em contato</h3>
+                    <div class="input-box">
+                        <span class="fas fa-user"></span>
+                        <input type="text" name="name" placeholder="Nome">
+                    </div>
+                    <div class="input-box">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <span class="fas fa-phone"></span>
+                        <input type="tel" name="phone" placeholder="Telefone">
+                    </div>
+                    <a href="" class="btn">Nos contate!</a>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <div class="footer-links">
+                <h4>Nos encontre!</h4>
+                <ul>
+                    <li><strong>Endereço: </strong>Av. João Durval, nº 0 - Centro, Feira de Santana (BA)</li>
+                    <li><strong>Telefone: </strong>(75) 91234-5678</li>
+                    <li><strong>Email: </strong><a href="mailto:docesabor@padaria.com">docesabor@padaria.com</a></li>
+                    <li><strong>Horário de funcionamento: </strong>Seg-Sab 07:00 - 19:00</li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Siga-nos!</h4>
+                <div class="social-icons">
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <img src="imgs/Instagram_icon.png.webp" alt="Instagram" width="30" height="30">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Padaria Doce Sabor - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
